@@ -7,7 +7,6 @@ let passwordBTN2 = document.getElementById("password-btn2")
 function generatePassword() {
 let password1 = [];
 let rand1 = characters[Math.floor(Math.random()*characters.length)]
-console.log(rand1)
    for (let i = 0; i <15; i++) {
        password1.push(characters[Math.floor(Math.random()*characters.length)])
    }
@@ -16,7 +15,6 @@ console.log(rand1)
 
 let password2 = [];
 let rand2 = characters[Math.floor(Math.random()*characters.length)]
-console.log(rand2)
    for (let i = 0; i <15; i++) {
        password2.push(characters[Math.floor(Math.random()*characters.length)])
    }

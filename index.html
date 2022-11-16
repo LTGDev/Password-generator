@@ -1,16 +1,17 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head><link rel="stylesheet" href="index.html">
         <title>Password Generator</title>
         <link rel="stylesheet" href="index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet">
+        <script defer src="index.js"></script>
         
     </head>
     <body>
         <h1 class="title">Generate a <span class="accent-text">random password.</span></h1>
         <p class="subtitle">Never use an insecure password again.</p>
-        <button onclick="generatePassword()" >Generate passwords</button>
+        <button onclick="generatePassword()" class="btn">Generate passwords</button>
         <hr id="line">
         <button id="password-btn1">Password-1</button><button id="password-btn2">Password-2</button>
         <script src="index.js"></script>

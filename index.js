@@ -5,11 +5,20 @@ let passwordBTN1 = document.getElementById("password-btn1")
 let passwordBTN2 = document.getElementById("password-btn2")
 
 function generatePassword() {
+<<<<<<< Updated upstream
 let password1 = [];
 let rand1 = characters[Math.floor(Math.random()*characters.length)]
+=======
+let password1 = "";
+let password2 = "";
+>>>>>>> Stashed changes
    for (let i = 0; i <15; i++) {
-       password1.push(characters[Math.floor(Math.random()*characters.length)])
+       const index = Math.floor(Math.random()*characters.length)
+       password1 += characters[index]
+       console.log(password1)
+       passwordBTN1.textContent = password1
    }
+<<<<<<< Updated upstream
    passwordBTN1.textContent = password1
 
 
@@ -17,7 +26,13 @@ let password2 = [];
 let rand2 = characters[Math.floor(Math.random()*characters.length)]
    for (let i = 0; i <15; i++) {
        password2.push(characters[Math.floor(Math.random()*characters.length)])
+=======
+       
+        for (let i = 0; i <15; i++) {
+       const index2 = Math.floor(Math.random()*characters.length)
+       password2 += characters[index2]
+       console.log(password2)
+       passwordBTN2.textContent = password2
+>>>>>>> Stashed changes
    }
-passwordBTN2.textContent = password2
 }
-

@@ -29,11 +29,14 @@ body {
     border-top: 1px #2F3E53;
 }
 
-#password-btn1 {
+.password-btn {
     background-color: #273549;
     color: #55F991;
     border: none;
     margin: 20px 10px 10px 0px ;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
 }
 
 #password-btn2 {
